@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2022-03-01T01:39:38.653Z",
+    "nombre": "lapiz",
+    "descripcion": "ejemplo lapiz",
+    "codigo": "C-001",
+    "foto": "lapiz.jpg",
+    "precio": 1.5,
+    "stock": 100
+  },
+  {
+    "id": 4,
+    "timestamp": "2022-03-01T02:09:19.918Z",
+    "nombre": "borrador545",
+    "descripcion": "ejemplo lapiz",
+    "codigo": "C-002",
+    "foto": "lapiz.jpg",
+    "precio": 1.5,
+    "stock": 100
+  },
+  {
+    "id": 3,
+    "timestamp": "2022-03-01T02:51:01.823Z",
+    "nombre": "borrador145",
+    "descripcion": "ejemplo lapiz",
+    "codigo": "C-002",
+    "foto": "lapiz.jpg",
+    "precio": 1.5,
+    "stock": 100
+  },
+  {
+    "id": 5,
+    "timestamp": "2022-03-01T23:59:34.763Z",
+    "nombre": "tajador90",
+    "descripcion": "desc tajador",
+    "codigo": "C005",
+    "foto": "tajador.png",
+    "precio": 1.9,
+    "stock": 100
+  }
+]
