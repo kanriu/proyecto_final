@@ -1,6 +1,6 @@
-import { Router } from "express";
-import controller from "../controllers/carrito.cjs";
-import middleware from "../middlewares/index.cjs";
+const { Router } = require("express");
+const controller = require("../controllers/carrito");
+const middleware = require("../middlewares");
 
 const router = Router();
 const {
@@ -23,4 +23,6 @@ router.delete(
   removeProductCart
 );
 
-export { router };
+module.exports = {
+  router,
+};

@@ -1,9 +1,8 @@
 {
-  "name": "proyecto_final_1",
+  "name": "proyecto_final_2",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
   },
@@ -14,6 +13,8 @@
   },
   "dependencies": {
     "express": "^4.17.3",
-    "moment": "^2.29.1"
+    "firebase-admin": "^10.0.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.7"
   }
 }

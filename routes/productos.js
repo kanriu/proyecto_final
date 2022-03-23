@@ -1,6 +1,6 @@
-import { Router } from "express";
-import controller from "../controllers/productos.cjs";
-import middleware from "../middlewares/index.cjs";
+const { Router } = require("express");
+const controller = require("../controllers/productos");
+const middleware = require("../middlewares");
 
 const router = Router();
 const {
@@ -19,4 +19,6 @@ router.get("/:id", validarIdProduct, getProductsId);
 router.put("/:id", validarIsAdmin, validarIdProduct, updateProduct);
 router.delete("/:id", validarIsAdmin, validarIdProduct, removeProduct);
 
-export { router };
+module.exports = {
+  router,
+};
